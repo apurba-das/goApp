@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "registry"
+        registry = "registry1"
         GOCACHE = "/tmp"
     }
     stages {
